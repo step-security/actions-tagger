@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "outDir": "./lib",
+    "moduleResolution": "NodeNext",
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@actionstagger/*": ["./src/*"],
+      "@actionstagger": ["./src"]
+    }
+  },
+  "include": ["src/**/*.ts", "jest.config.ts"]
+}
