@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/actions-tagger",
+   "upstream_full_repo_name": "actions-r-us/actions-tagger",
+   "action_type": "node",
+   "last_release": {
+     "tag_name": "v2.0.3",
+     "created_at": "2026-06-23T17:44:00Z",
+     "published_at": "2026-06-24T18:54:23Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
